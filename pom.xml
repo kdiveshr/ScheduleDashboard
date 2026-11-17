@@ -45,6 +45,8 @@
 	</developers>
 	<properties>
 		<java.version>1.8</java.version>
+		<!-- Reproducibility study fix, playbook step 2: pin archive timestamps to the pinned commit time. -->
+		<project.build.outputTimestamp>1779689639</project.build.outputTimestamp>
 	</properties>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
